@@ -1,0 +1,127 @@
+/* .card{
+    width: 400px;
+    height: 500px;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 20px;
+    margin: 10px;
+}
+img{
+    width: 100%;
+    border-radius: 25px;
+
+}
+span{
+    color: rgb(193, 95, 95);
+}
+h2{
+    color: rgb(133, 83, 179);
+}
+h4{
+    color: cadetblue;
+    text-align: right;
+}
+#pets{
+    display: flex;
+    justify-content: space-evenly;
+}
+.animals:hover{
+      box-shadow: 2px 2px 10px rgb(33, 32, 31);
+}
+
+@media (max-width:300px)
+{
+    #pets{
+        flex-wrap:wrap;
+    }
+} */
+
+
+/* Assignment 7 */
+
+/* .container{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(12,1fr);
+    grid-gap: 10px 10px;
+}
+.container div{
+    background-color: pink;
+    font-size: 1.5rem;
+}
+
+.header{
+     grid-column: 1/span 12;
+}
+
+.sidebar{
+    grid-column:1/span 3 ;
+    grid-row: 2/span 10 ;
+}
+.navigation{
+    grid-column: 4/span 6;
+}
+.main{
+    grid-column: 4/span 6;
+    grid-row: 3/span 9;
+}
+.ads{
+    grid-column: 10/span 3 ;
+    grid-row: 2/span 10;
+}
+
+.footer{
+    grid-column:1/span 12 ;
+}
+
+
+@media (max-width:720px)
+{
+    .header{
+        grid-column:1/span 12;
+    }
+    .navigation{
+        grid-column:1/span 12;
+        grid-row: 2;
+    }
+    .sidebar{
+        grid-column:1/span 3;
+        grid-row:3/span 9;
+    }
+    .main{
+        grid-column:4/span 9;
+        grid-row:3/span 9;
+    }
+    .ads{
+        grid-column: 1/span 3;
+        grid-row: 12;
+    }
+    .footer{
+        grid-column: 4/span 9;
+        grid-row: 12;
+    }
+} */
+
+.loader{
+    width: 120px;
+    height: 120px;
+    border: 16px solid #f3f3f3;
+    border-top: 16px solid goldenrod;
+    border-radius: 50%;
+    animation:spin 2s linear infinite;
+}
+
+@keyframes spin{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%
+    {
+        transform:rotate(360deg);
+    }
+}
+
+

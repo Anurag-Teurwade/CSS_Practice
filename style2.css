@@ -1,0 +1,298 @@
+/* h1{
+    color:pink;
+}
+#greet{
+    color: yellow;
+}
+.myclass{
+    color: blanchedalmond;
+} */
+
+/* div p{
+    background-color: black;
+}
+.para{
+    background-color: red;
+}
+p{
+    background-color: bisque;
+} */
+/* 
+div.greetDiv.greet{
+    color:green;
+}
+.greetDiv p.greet{
+    color: blue;
+}
+.greetDiv .greet{
+    color:red;
+} */
+
+/* #outer{
+    height: 200px;
+    width: 70px;
+    border: 2px solid black;
+}
+.inner{
+
+    height:50px;
+    width:50px;
+    border: 2px solid black;
+    margin: 10px;
+    border-radius: 50px;
+}
+#red{
+    background-color: red;
+}
+#yellow{
+    background-color: yellow;
+}
+#green{
+    background-color: green;
+} */
+
+/* h2{
+    display: inline;
+    background-color: aqua;
+}
+span{
+    display: block;
+    background-color: brown;
+} */
+
+/* span{
+    background-color:pink;
+    border:2px solid black;
+    height: 100px; 
+    width: 200px;
+    padding:50px;
+    margin: 20px;
+}
+div{
+
+    height: 100px; 
+    width: 200px;
+    padding:50px;
+    margin: 20px;
+} */
+
+/* div{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(79, 220, 79);
+    border: 2px solid black;
+    margin:5px;
+    display: inline-block;
+}
+#one{
+    display: none;
+} */
+
+/* h1{
+    border: 2px solid black;
+    width: 50%;
+}
+#outer{
+    height: 400px;
+    width: 400px;
+    background-color: pink;
+    margin: 50px;
+}
+#inner{
+    height: 100px;
+    width: 100px;
+    background-color: cornflowerblue;
+    margin-left: 10px ;
+} */
+
+/* #outer{
+    height: 400px;
+    width: 400px;
+    border: 2px solid black;
+    background-color: pink;
+    font-size: 10px;
+}
+#inner{
+    height: 100px;
+    width: 100px;
+    background-color: cornflowerblue;
+    font-size: 3em;
+    padding:1em ;
+   
+}
+button{
+    font-size: 50px;
+    border-radius: 15px;
+    border: 2px solid green;
+    padding-left: 1em;
+    padding-right: 1em;
+} */
+/* section{
+    font-family: 15px;
+}
+div{
+    font-size: 2rem;
+} */
+
+/* div{
+    height: 200px;
+    width:200px;
+    background-color:#ff0000cc;
+}
+#opacity{
+  background-color: rgba(255, 255, 0, 0.811);
+  opacity:0.5;
+
+} */
+
+/* div{
+    height: 100px;
+    width:100px;
+    background-color:rgba(45, 231, 16, 0.8);
+    transition-duration: 2s;
+    transition-delay: 2s;
+    margin: 0 auto;
+    margin-top: 10px;
+    transition: margin-top 2s ease-in-out 0.2s;
+
+}
+div:hover{
+    background-color: black;
+    border-radius: 50%;
+    margin-top: 400px;
+    background-color: pink;
+} */
+
+/* section{
+    margin-top: 100px;
+}
+div{
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    background-color: #7aa874;
+    border: 2px solid black;
+    margin: 10px auto;
+}
+div:nth-of-type(2n){
+    background-color: #f7db6a;
+}
+div:nth-of-type(3n)
+{
+    background-color: #ebb02d;
+} */
+             
+/* Transform */
+
+/* #one{
+    transform: rotate(45deg);
+}
+#two{
+    transform: scale(0.5);
+}
+#three{
+    transform: translateX(-100px);
+}
+#four{
+    transform: skew(45deg);
+}
+#five{
+    transform: rotate(30deg) translateX(150px);
+} */
+
+
+/* Box shadow */
+/* 
+div{
+    height: 50px;
+    width: 200px;
+    background-color: brown;
+    border: 2px solid black;
+    text-align: center;
+    margin: 10px auto;
+    box-shadow: 2px 2px 10px black;
+
+} */
+
+/* div{
+    width: 400px;
+    height: 200px;
+    background-color: #7aa874;
+    margin: 10px auto;
+    background-image: url(tree.jpg);
+    background-size: contain;
+    color: white;
+} */
+
+/* div{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    text-align: center;
+    border: 3px solid black;
+    margin: 20px;
+    display: inline-block;
+}
+
+#static{
+    background-color: yellow;
+    position: default;
+    top: 100px;
+    left: 100px;
+}
+#relative{
+    background-color: yellow;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+#absolute{
+    background-color: yellow;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    text-align: center;
+}
+
+#fixed{
+    background-color: yellow;
+    position: fixed;
+    top: 100px;
+    left: 100px;
+    text-align: center;
+} */
+
+/* Simple Smiley Face */
+
+.face{
+    height: 400px;
+    width: 400px;
+    background-color: #ffa511;
+    border-radius: 50%;
+
+}
+.mouth{
+    width: 200px;
+    height: 75px;
+    background-color: brown;
+    border-radius: 0 0 50px 50px;
+    position: absolute;
+    top: 250px;
+    left: 100px;
+    
+}
+
+.left-eye, .right-eye{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    display: inline-block;
+    top: 100px;
+    left: 100px;
+
+}
+.right-eye{
+    left: 250px;
+}
